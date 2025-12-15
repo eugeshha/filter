@@ -1,0 +1,99 @@
+.service-list {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.service-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.service-list-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.empty-message {
+  text-align: center;
+  padding: 40px;
+  color: #999;
+  font-size: 16px;
+}
+
+.service-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.service-item:hover {
+  background-color: #f0f0f0;
+}
+
+.service-name {
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+}
+
+.service-price {
+  margin-right: 15px;
+  font-size: 16px;
+  color: #666;
+  font-weight: 600;
+  min-width: 80px;
+  text-align: right;
+}
+
+.service-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-edit,
+.btn-delete {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  color: #333;
+}
+
+.btn-edit:hover {
+  background-color: #e3f2fd;
+  border-color: #4a90e2;
+  color: #4a90e2;
+}
+
+.btn-delete:hover {
+  background-color: #ffebee;
+  border-color: #e74c3c;
+  color: #e74c3c;
+}

@@ -1,0 +1,11 @@
+.filter-stats {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+  padding: 8px 0;
+}
+
+.filter-stats strong {
+  color: #333;
+  font-weight: 600;
+}
